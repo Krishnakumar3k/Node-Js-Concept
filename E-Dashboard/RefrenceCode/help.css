@@ -1,0 +1,71 @@
+.nav-ul {
+    display: flex;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(182, 216, 246);
+  }
+  
+  .nav-ul li a{
+    color: black;
+    margin-left: 5rem;
+    text-decoration: none;
+  }
+  
+  /* footer code */
+  .footer{
+     position: absolute;
+     bottom: 0;
+     text-align: center;
+     width: 100%;
+     color: white;
+     background-color: rgb(50, 57, 69);
+  }
+  
+  /* SignUp Page Code */
+  .signup{
+    margin-left: 40%;
+  }
+   .signup-input{
+    display: block;
+    margin: 10px;
+    height: 25px;
+    width: 350px;
+    border: 1px solid #B6D8F6;
+   }
+  
+   .signup-button{
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(158, 213, 234);
+    border: 1px solid rgb(26, 26, 83);
+    cursor: pointer;
+   }
+  
+   /* Login page */
+   .login{
+    margin-left: 40%;
+    margin-top: 100px;
+   }
+  
+   .login-input{
+    display: block;
+    margin: 10px;
+    height: 25px;
+    width: 350px;
+    border: 1px solid #B6D8F6;
+   }
+   .login-button{
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(158, 213, 234);
+    border: 1px solid rgb(26, 26, 83);
+    cursor: pointer;
+   }
