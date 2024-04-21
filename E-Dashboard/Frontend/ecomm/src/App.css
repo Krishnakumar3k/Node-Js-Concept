@@ -3,7 +3,8 @@
   font-weight: bold;
   font-family: sans-serif;
   padding: 10px;
-  margin: 0;
+  margin: 0px;
+ 
   text-decoration: none;
   list-style-type: none;
   background-color: rgb(182, 216, 246);
@@ -30,6 +31,19 @@
   margin-left: 40%; /* Adjusted in media query for smaller screens */
 }
 
+.nav-right ul li{
+  text-align: right;
+
+ 
+}
+
+.logo{
+  width: 80px;
+  padding: 5px;
+  height: 25px;
+  float: left;
+}
+
 .signup-input, .login-input {
   display: block;
   margin: 10px;
@@ -53,6 +67,8 @@
   margin-left: 40%; /* Adjusted in media query for smaller screens */
   margin-top: 100px;
 }
+
+
 
 /* Responsive media queries */
 @media (max-width: 768px) {

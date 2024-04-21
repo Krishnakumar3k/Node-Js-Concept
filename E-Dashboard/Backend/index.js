@@ -16,7 +16,7 @@ app.use(cors());
 // }
 // connectDb();
 
-/* SignUp API */
+/* SignUp API==================================================== */
 app.post("/signup", async (req, res) => {
   let user = new users(req.body);
   let result = await user.save();
@@ -25,7 +25,7 @@ app.post("/signup", async (req, res) => {
   res.send(result);
 });
 
-//Login API ----------------------------------------------
+//Login API============================================================
 app.post("/login", async (req, res) => {
   //res.send(req.body)
   console.log(req.body);
@@ -48,5 +48,5 @@ app.post("/login", async (req, res) => {
 
 
 app.listen(5000, () => {
-  console.log("Server is Running on Port 5000");
+  console.log("Server is started : Running on Port 5000");
 });
